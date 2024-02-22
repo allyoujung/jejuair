@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pc모바일</title>
+    <style type="text/css">
+        body{background-color:#ebdfb6; height: 100vh;}
+        .phone{width: 544px; height: 1080px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); background: url(1.png) no-repeat;}
+        .content{width: 414px; height: 736px; position: absolute; background-color: #fff; top: 174px; left: 69px;}
+        iframe{width: 100%; height: 100%;}
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<body>
+    <div class="phone">
+        <div class="content">
+            <iframe src="./mobile/index.html" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script>
+        if (Modernizr.touchevents) {
+            location.href="./mobile/index.php";
+        } else {
+        // not-supported
+        }
+    </script>
+</body>
+</html>
