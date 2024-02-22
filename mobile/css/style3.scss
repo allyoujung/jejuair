@@ -1,0 +1,161 @@
+$orange:#FF5100;
+$blue:#1DBEEF;
+$white:#fff;
+$lightgray1:#eeeeee;
+$lightgray2:#E5E5E5;
+$darkgray:#666666;
+$dark-light-gray:#808080;
+$dark:#000;
+
+#wrap{padding: 0 18px ;  box-sizing: border-box;}
+
+header{ height: 5rem; width: 100%; position: fixed;top: 0; left: 0; background: $white; z-index: 999999;padding: 0 18px ;box-sizing: border-box;  
+    .logo{float: left;
+        img{ height: 2rem; margin-top: 1.7rem;}
+    }
+    .menu{float: right;
+        img{ height: 2.4rem; margin-top: 1.5rem; }
+    }
+}
+#content1{height: 75rem; width: 100%; display: flex; flex-direction: column; padding-top: 7rem; 
+    .con1{float: left; width: 100%; height: 19rem; border-bottom: 3px solid rgba(255, 81, 0, 1);
+        h2{
+            font-size: 2.2rem; font-weight: 500;
+        }
+        p{
+            margin-top: 1.5rem; color: $darkgray; font-size: 1.5rem; font-weight: 300;
+        }
+        h3{ width: 4rem; margin-top: 1.5rem;
+            a{
+                border-bottom: 1px solid rgba(255, 81, 0, 0.4);font-size: 1.4rem;line-height: 15px;letter-spacing: -0.21px;
+                color: rgba(255, 81, 0, 1);font-weight: 500;
+            }
+        }
+    }
+    .con2{
+        .into{
+            h2{
+                font-size: 1.4rem;line-height: 15px;letter-spacing: -0.21px; height: 3rem;
+                color: rgba(255, 81, 0, 1); margin-top: 2rem; border-bottom: 1px solid #f2f2f2;
+            }
+            p{
+                padding: 20px 8px 24px;font-size: 1.5rem;
+                color: #666;
+                letter-spacing: -0.21px; font-weight: 300;
+            }
+        }
+        .into2{ display: flex; flex-direction: column; padding: 1px 8px 1px;
+            .inputt{
+                .input{ display: inline-block;
+                    border: none; border-bottom: 1px solid #ccc; padding: 8px 0; width: 100%; font-size: 1.7rem;
+                    color: #000; 
+                    &::placeholder{
+                        color: #ccc; 
+                    }
+                    &:focus{
+                        outline: none;
+                    }
+                    
+                }
+            }
+            p{
+                margin-top: 1rem; font-size: 1.2rem; font-weight: 300;
+            }
+        }
+        .into3{ display: flex; flex-direction: column; padding: 1px 8px 1px; margin-top: 2.5rem;
+            .inputt{ position: relative;
+                .inputtt{ display: inline-block;
+                    border: none; border-bottom: 1px solid #ccc; padding: 8px 0; width: 100%; font-size: 1.7rem;
+                    color: #666; 
+                    &:focus{
+                        outline: none;
+                    }
+                    
+                }
+                .icon{background: url(../img/icon_calendar.png) no-repeat 0 0/cover; width: 2.5rem; height: 2.5rem;
+                position: absolute; top: 8px; right: 2px;
+                }
+            }
+            p{
+                margin-top: 1rem; font-size: 1.2rem; font-weight: 300;
+            }
+        }
+        .into4{ display: flex; flex-direction: column; padding: 1px 8px 1px; margin-top: 2.5rem;
+            .inputt{width: 100%; display: flex; 
+                .input1{ display: inline-block; width: 42%;
+                    border: none; border-bottom: 1px solid #ccc; padding: 8px 0; font-size: 1.7rem; margin-right: 1.5rem;
+                    color: #000; 
+                    &::placeholder{
+                        color: #ccc; 
+                    }
+                    &:focus{
+                        outline: none;
+                    }
+                    
+                }
+                .input2{ display: inline-block; width: 53%; 
+                    border: none; border-bottom: 1px solid #ccc; padding: 8px 0;  font-size: 1.7rem;
+                    color: #000; 
+                    &::placeholder{
+                        color: #ccc; 
+                    }
+                    &:focus{
+                        outline: none;
+                    }
+                    
+                }
+            }
+            p{
+                margin-top: 1rem; font-size: 1.2rem; font-weight: 300;
+            }
+        }
+        .btn{ width: 100%; height: 5.5rem; background: $orange; margin-top: 2rem; border-radius: 3px;
+            h3{
+                a{
+                    text-align: center; line-height: 5.5rem; color:$white; font-size: 1.7rem;
+                }
+            }
+        }
+    }
+}
+.boto1{border: 3px solid #f2f2f2; margin-top: 3.5rem; box-shadow: -1px 3px #f8f8f8; position: absolute; bottom: 0; left: 0; width: 100%;}
+#content2{position: relative; height: 32rem;
+    h2{
+        font-size: 2rem; font-weight: 500; margin-top: 3rem;
+    }
+    .text{ padding: 0px 8px;
+        h3{ margin-top: 1.5rem; font-size: 1.5rem;
+            span{
+                color: $orange;
+            }
+        }
+        p{
+            margin-top: 2rem;
+        }
+    }
+}
+.boto2{border: 3px solid #f2f2f2; margin-top: 3.5rem; box-shadow: -1px 3px #f8f8f8; position: absolute; left: 0;  width: 100%;}
+#content3{height: 11rem; 
+    .text{margin-top: 6rem;  display: flex; justify-content: space-between; align-items: center;
+        p{
+            font-size: 1.5rem;
+        }
+        a{
+            background: url(../img/icon_arrow_right.png) no-repeat 0 0/cover; width: 3rem; height: 3rem; 
+        }
+    }
+}
+#footer{
+    .con6{clear: both; height: 7rem; width: 100%; position: fixed; bottom: 0; left: 0; background: $white; z-index: 999999; border-top: 1px solid #ccc;
+        ul{display: flex; justify-content: space-between; 
+            li{float: left; padding: 1rem; display: flex; align-items: center; flex-direction: column;
+                a{ display: flex;align-items: center; flex-direction: column;
+                    font-size: 1rem;
+                    img{
+                        width: 3rem; 
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,356 @@
+#wrap {
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999999;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+header .logo {
+  float: left;
+}
+header .logo img {
+  height: 2rem;
+  margin-top: 1.7rem;
+}
+header .menu {
+  float: right;
+}
+header .menu img {
+  height: 2.4rem;
+  margin-top: 1.5rem;
+}
+
+#contents {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6.5rem;
+}
+#contents .con1 {
+  float: left;
+  width: 100%;
+}
+#contents .con1 .button {
+  background: #eeeeee;
+  height: 5vh;
+  margin-top: 1rem;
+  border-radius: 50px;
+}
+#contents .con1 .button li {
+  float: left;
+  width: 33.333%;
+}
+#contents .con1 .button li a {
+  display: block;
+  text-align: center;
+  line-height: 5vh;
+  font-size: 1.5rem;
+  color: #808080;
+}
+#contents .con1 .button li.active {
+  width: 33.333%;
+}
+#contents .con1 .button li.active a {
+  height: 4.2vh;
+  margin-left: 0.4rem;
+  margin-top: 0.3rem;
+  background: #fff;
+  border-radius: 50px;
+  display: block;
+  line-height: 4.2vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #FF5100;
+  box-shadow: 1px 2px 4px #ccc;
+}
+#contents .con1 .click {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  height: 8rem;
+  align-items: center;
+  border-bottom: 1px solid #E5E5E5;
+}
+#contents .con1 .click .Start h3 {
+  display: block;
+  color: #808080;
+  font-size: 1.2rem;
+}
+#contents .con1 .click .Start h2 {
+  font-size: 2.2rem;
+}
+#contents .con1 .click .Start h2 a {
+  color: #ccc;
+  font-weight: 500;
+}
+#contents .con1 .click .icon {
+  background: url(../img/icon_switch_off.png) no-repeat 0 0/cover;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 2rem;
+}
+#contents .con1 .click .arrive {
+  text-align: right;
+}
+#contents .con1 .click .arrive h3 {
+  display: block;
+  color: #808080;
+  font-size: 1.2rem;
+}
+#contents .con1 .click .arrive h2 {
+  font-size: 2.2rem;
+}
+#contents .con1 .click .arrive h2 a {
+  color: #ccc;
+  font-weight: 500;
+}
+#contents .con1 .text-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+#contents .con1 .text-list .text {
+  border: 1px solid #ccc;
+  margin-top: 0.7rem;
+  padding: 5px 10px;
+}
+#contents .con1 .text-list .text a {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+#contents .con1 .text-list .text1 {
+  width: 24rem;
+}
+#contents .con1 .text-list .text1 a span {
+  color: #1DBEEF;
+}
+#contents .con1 .text-list .text2 {
+  display: flex;
+}
+#contents .con1 .text-list .text2 .text2-1 {
+  margin-right: 0.4rem;
+}
+#contents .con1 .text-list .text2 .text2-1 a span {
+  color: #FF5100;
+}
+#contents .con1 .text-list .text2 .text2-2 a {
+  font-size: 1.3rem;
+}
+#contents .con1 .text-list .text3 {
+  width: 13rem;
+}
+#contents .con1 .text-list .text3 a span {
+  color: #FF5100;
+}
+#contents .con2 {
+  float: left;
+  margin-top: 2rem;
+}
+#contents .con2 .event {
+  width: 100%;
+  height: 13rem;
+  position: relative;
+}
+#contents .con2 .event h2 {
+  margin-bottom: 1.5rem;
+}
+#contents .con2 .event h2 a {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+#contents .con2 .event .img {
+  background: url(../img/bm_kr_210609_BuzinessLight.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+#contents .con2 .event .number {
+  position: relative;
+  top: -3rem;
+  right: -27rem;
+  width: 6rem;
+  font-size: 0.5rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 0.2888rem 1rem 0.2888rem 0.3888rem;
+  text-align: center;
+  opacity: 0.5;
+}
+#contents .con2 .event .number .plus {
+  font-size: 0.9rem;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+}
+#contents .con3 {
+  clear: both;
+  padding-top: 5.5rem;
+  position: relative;
+}
+#contents .con3 .service .s_text {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+#contents .con3 .service .s_text a {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+#contents .con3 .service .s_text .all {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+#contents .con3 .service .swiper-container {
+  width: 100%;
+}
+#contents .con3 .service .swiper-container .swiper-slide {
+  width: 80%;
+}
+#contents .con3 .service .swiper-container .swiper-slide img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+#contents .con3 .service .swiper-container .swiper-slide h3 {
+  position: absolute;
+  top: 2rem;
+  left: 2.3rem;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#contents .con3 .service .swiper-container .swiper-slide p {
+  position: absolute;
+  top: 4rem;
+  left: 2.3rem;
+  margin-top: 1.7rem;
+  color: #fff;
+}
+
+#footer {
+  height: 28rem;
+}
+#footer .con4 {
+  margin-top: 7rem;
+}
+#footer .con4 .gradation {
+  width: 100%;
+  height: 8rem;
+  background: linear-gradient(-180deg, rgba(255, 255, 255, 0), rgba(255, 86, 8, 0.1));
+}
+#footer .con4 .gradation a {
+  float: left;
+}
+#footer .con4 .gradation a img {
+  width: 6rem;
+  margin-right: 3rem;
+  margin-left: 6rem;
+}
+#footer .con4 .gradation p {
+  padding-top: 1rem;
+}
+#footer .con5 {
+  width: 100%;
+  height: 14rem;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+#footer .con5 .f_btn {
+  width: 100%;
+}
+#footer .con5 .f_btn li {
+  float: left;
+  width: 13rem;
+  height: 3rem;
+  background: #E5E5E5;
+  margin-right: -3rem;
+  margin-left: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+#footer .con5 .f_btn li li:last-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+#footer .con5 .f_btn li a {
+  text-align: center;
+  line-height: 3rem;
+}
+#footer .con5 .f_list {
+  float: left;
+  margin-left: 4.6rem;
+}
+#footer .con5 .f_list a {
+  float: left;
+  position: relative;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+}
+#footer .con5 .f_list a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 8px;
+  margin-top: -4px;
+  margin-left: -13px;
+  background: #bdbdbd;
+}
+#footer .con5 .f_list a:first-child:after {
+  width: 0;
+  height: 0;
+}
+#footer .con5 .f_copy {
+  float: left;
+  margin-left: 9.5rem;
+  margin-top: 1rem;
+}
+#footer .con5 .f_copy p {
+  font-size: 1rem;
+}
+#footer .con6 {
+  clear: both;
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999999;
+  border-top: 1px solid #ccc;
+}
+#footer .con6 .fixed ul {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .con6 .fixed ul li {
+  float: left;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#footer .con6 .fixed ul li a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+#footer .con6 .fixed ul li a img {
+  width: 3rem;
+}/*# sourceMappingURL=style.css.map */

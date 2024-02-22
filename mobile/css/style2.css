@@ -1,0 +1,250 @@
+#wrap {
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999999;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+header .logo {
+  float: left;
+}
+header .logo img {
+  height: 2rem;
+  margin-top: 1.7rem;
+}
+header .menu {
+  float: right;
+}
+header .menu img {
+  height: 2.4rem;
+  margin-top: 1.5rem;
+}
+
+#contents {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6.5rem;
+}
+#contents .con1 {
+  float: left;
+  width: 100%;
+}
+#contents .con1 .button {
+  background: #eeeeee;
+  height: 5vh;
+  margin-top: 1rem;
+  border-radius: 50px;
+}
+#contents .con1 .button li {
+  float: left;
+  width: 33.333%;
+}
+#contents .con1 .button li a {
+  display: block;
+  text-align: center;
+  line-height: 5vh;
+  font-size: 1.5rem;
+  color: #808080;
+}
+#contents .con1 .button li.active {
+  width: 33.333%;
+}
+#contents .con1 .button li.active a {
+  height: 4.2vh;
+  margin-left: 0.4rem;
+  margin-top: 0.3rem;
+  background: #fff;
+  border-radius: 50px;
+  display: block;
+  line-height: 4.2vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #FF5100;
+  box-shadow: 1px 2px 4px #ccc;
+}
+#contents .con1 .click {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  height: 8rem;
+  align-items: center;
+  border-bottom: 1px solid #E5E5E5;
+}
+#contents .con1 .click .Start h3 {
+  display: block;
+  color: #808080;
+  font-size: 1.2rem;
+}
+#contents .con1 .click .Start h2 {
+  font-size: 2.2rem;
+}
+#contents .con1 .click .Start h2 a {
+  color: #ccc;
+  font-weight: 500;
+}
+#contents .con1 .click .icon {
+  background: url(../img/icon_switch_off.png) no-repeat 0 0/cover;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 2rem;
+}
+#contents .con1 .click .arrive {
+  text-align: right;
+}
+#contents .con1 .click .arrive h3 {
+  display: block;
+  color: #808080;
+  font-size: 1.2rem;
+}
+#contents .con1 .click .arrive h2 {
+  font-size: 2.2rem;
+}
+#contents .con1 .click .arrive h2 a {
+  color: #ccc;
+  font-weight: 500;
+}
+#contents .con1 .days {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  height: 8rem;
+  align-items: center;
+  border-bottom: 1px solid #E5E5E5;
+}
+#contents .con1 .days .day_1 {
+  width: 50%;
+}
+#contents .con1 .days .day_1 h3 {
+  display: block;
+  color: #808080;
+  font-size: 1.2rem;
+}
+#contents .con1 .days .day_1 h2 {
+  font-size: 2rem;
+}
+#contents .con1 .days .day_1 h2 a {
+  color: #ccc;
+  font-weight: 500;
+}
+#contents .con1 .days .day_2 {
+  text-align: left;
+}
+#contents .con1 .days .day_2 h3 {
+  display: block;
+  color: #808080;
+  font-size: 1.2rem;
+}
+#contents .con1 .days .day_2 h2 {
+  font-size: 2rem;
+}
+#contents .con1 .days .day_2 h2 a {
+  color: #ccc;
+  font-weight: 500;
+}
+#contents .con1 .number {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  height: 8rem;
+  align-items: center;
+  border-bottom: 1px solid #E5E5E5;
+}
+#contents .con1 .number .num1 h3 {
+  display: block;
+  color: #808080;
+  font-size: 1.2rem;
+}
+#contents .con1 .number .num1 h2 {
+  font-size: 1.9rem;
+}
+#contents .con1 .number .num1 h2 a {
+  color: #222;
+  font-weight: bold;
+}
+#contents .con1 .number .num2 {
+  text-align: right;
+}
+#contents .con1 .number .num2 h2 {
+  font-size: 1.5rem;
+}
+#contents .con1 .number .num2 h2 a {
+  color: #00a7e1;
+  border-bottom: 1px solid rgba(0, 167, 225, 0.4);
+  font-weight: 500;
+  margin-top: 1.2rem;
+}
+#contents .con1 .pay {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  height: 3rem;
+}
+#contents .con1 .pay div {
+  width: 50%;
+}
+#contents .con1 .pay div .one {
+  display: inline-block;
+  font-size: 3rem;
+}
+#contents .con1 .pay div #border {
+  border: 7px solid #FF5100;
+}
+#contents .con1 .search {
+  width: 100%;
+  height: 5rem;
+  background: #E5E5E5;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+#contents .con1 .search h3 a {
+  text-align: center;
+  line-height: 5rem;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+#footer {
+  height: 28rem;
+}
+#footer .con6 {
+  clear: both;
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999999;
+  border-top: 1px solid #ccc;
+}
+#footer .con6 .fixed ul {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .con6 .fixed ul li {
+  float: left;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#footer .con6 .fixed ul li a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+#footer .con6 .fixed ul li a img {
+  width: 3rem;
+}/*# sourceMappingURL=style2.css.map */

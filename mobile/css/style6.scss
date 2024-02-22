@@ -1,0 +1,141 @@
+$orange:#FF5100;
+$blue:#1DBEEF;
+$white:#fff;
+$lightgray1:#eeeeee;
+$lightgray2:#E5E5E5;
+$darkgray:#666666;
+$dark-light-gray:#808080;
+$dark:#000;
+
+#wrap{padding: 0 18px ;  box-sizing: border-box;}
+
+header{ width: 100%; background: $white; 
+    .he1{display: flex; justify-content: space-between;
+        .hb1{display: flex; margin-top: 1.5rem; align-items: center;
+            .home{margin-right: 2rem; width: 2.5rem;
+                a{
+                    img{     width: 2.6rem;
+                        position: relative;
+                        top: 3px;
+
+                    }
+                }
+            }
+            .choice{
+                a{display: flex; align-items: center; font-size: 1.7rem;
+                    img{width: 3rem; position: relative;top: 3px;
+                    }
+                }
+            }
+        }
+        .hb2{display: flex; margin-top: 1.5rem;align-items: center;
+            .app{margin-right: 2rem;
+                a{display: flex; align-items: center; font-size: 1.6rem; 
+                    img{width: 2.5rem;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            .close{
+                a{
+                    img{width: 2.6rem;
+                        position: relative;
+                        top: 3px;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .btn{  margin-top: 5rem;  display: flex; justify-content: space-between;
+        li{ width: 50%; background: $orange;  border-radius: 3px; margin-right: 1rem;
+            a{
+                text-align: center; line-height: 5rem; color:$white; font-size: 1.5rem; 
+            }
+        }
+        li:first-child{background: $white;  border: 1px solid $orange ; 
+            a{
+                color: $orange; 
+            }
+        }
+        li:last-child{margin-right: 0;}
+    }
+    .into{display: flex; justify-content: space-between; line-height: 8rem; border-bottom: 1px solid #ccc;
+        p{
+            font-size: 1.5rem; 
+        }
+        span{
+            font-size: 1.5rem; text-decoration: underline; color: $orange;
+        }
+    }
+    .icon{display: flex; justify-content: space-around; margin-top: 2rem;
+        li{ 
+            a{display: flex; flex-direction: column;align-items: center;
+                img{
+                    width: 4rem; margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+    .boto2{border: 3px solid #f2f2f2;  box-shadow: -1px 3px #f8f8f8; position: relative; left: -18px; width: calc(100% + 36px); margin-top: 4rem;}
+}
+
+#contents{ width: 100%; display: flex; flex-direction: column; padding-top: 3rem;  padding-bottom: 6rem;
+    .con1{
+       .t_list{
+            h3{
+                font-size: 1.3rem; color: $dark-light-gray; text-align: left; line-height: 5rem; border-bottom: 1px solid #ccc; margin-top: 3rem;
+            }
+            .first{margin-top: 0;}
+            ul{margin-top: 1.3rem;
+                li{
+                    a{
+                        font-size: 1.6rem; line-height:3.5rem;
+                    }
+                }
+            }
+       }
+       .sns{
+           h3{
+                font-size: 1.3rem; color: $dark-light-gray; text-align: left; line-height: 5rem; border-bottom: 1px solid #ccc; margin-top: 3rem;
+            }
+            ul{margin-top: 2rem;display: flex;justify-content: space-between; padding: 0 10px;
+                li{
+                    a{
+                        img{
+                            width: 4.5rem;
+                        }
+                    }
+                }
+            }
+       }
+       .banner{ display: flex; justify-content: space-evenly ;align-items: center; margin-top: 3rem;  position: relative; left: -18px; width: calc(100% + 36px); 
+           height: 12rem; background: #BEEDFD;
+           p{height: 4rem;}
+           img{ width: 5rem; height: 5rem;}
+       }
+    }
+}
+
+#footer{
+    .fixed{clear: both; height: 7rem; width: 100%; position: fixed; bottom: 0; left: 0; background: #fff; z-index: 999999; border-top: 1px solid #ccc; border-radius: 10px 10px 0 0;
+        box-shadow: 0 -3px 6px 0 rgb(0 0 0 / 11%);
+        .box{position: relative;
+            .inputt{ display: flex; align-items: center;  justify-content: center;
+                .input{ border: 0; background: #f5f5f5;  padding: 1.5rem 17rem 1.5rem 1rem; margin-top: 1rem; border-radius: 10px;
+                    &::placeholder{
+                        color: #ccc; font-size: 1.5rem;
+                    }
+                    &:focus{
+                        outline: none;
+                    }
+                } 
+                a{
+                    img{
+                        width: 3rem; position: absolute; top: 20px; right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+$orange:#FF5100;
+$blue:#1DBEEF;
+$white:#fff;
+$lightgray1:#eeeeee;
+$lightgray2:#E5E5E5;
+$darkgray:#666666;
+$dark-light-gray:#808080;
+$dark:#000;
+
+#wrap{padding: 0 18px ;  box-sizing: border-box;}
+
+header{ height: 5rem; width: 100%; position: fixed;top: 0; left: 0; background: $white; z-index: 999999;padding: 0 18px ;box-sizing: border-box;  
+    .logo{float: left;
+        img{ height: 2rem; margin-top: 1.7rem;}
+    }
+    .menu{float: right;
+        img{ height: 2.4rem; margin-top: 1.5rem; }
+    }
+}
+
+#contents{height: 75rem; width: 100%; display: flex; flex-direction: column; padding-top: 7rem; 
+    .con1{
+        h3{font-size: 1.8rem;line-height: 3rem;color: #222;font-weight: 500;
+        }
+        p{
+            font-size: 1.4rem;line-height: 4rem;letter-spacing: -0.15px;color: #666;font-weight: 400;text-align: left
+        }
+        .luggage{background: url(../img/img_advance_luggage.png) no-repeat right 10px bottom; }
+        .seat{background: url(../img/img_advance_seat.png) no-repeat right 10px bottom;}
+        .meal{background: url(../img/img_advance_meal.png) no-repeat right 10px bottom;}
+        .insurance{background: url(../img/img_advance_insurance.png) no-repeat right 10px bottom;}
+        .btn{display: block;width: 100%;padding: 27px 80px 27px 10px;border-bottom: 1px solid #f2f2f2;text-align: left;background-size: 70px auto;
+            span{
+                background: url(../img/icon_info_question.png) no-repeat right center ; 
+                display: inline-block;
+                padding-right: 22px;
+                background-size: 20px auto;
+                font-size: 1.5rem;
+                line-height: 20px;
+                color: #222;
+                font-weight: 500;
+            }
+        }
+        .cilck{ width: 100%; height: 5.5rem; border: 1.5px solid $orange; margin-top: 2rem; border-radius: 3px;
+            h3{
+                a{
+                    text-align: center; line-height: 5rem; color:$orange; font-size: 1.5rem;
+                }
+            }
+        }
+        .ltxet{ font-size: 1.5rem; line-height: 6rem;
+            span{
+                color:$orange; text-decoration: underline; height: 1rem;
+            }
+        }
+    }
+    .con2{
+        .list{
+            ul{display: flex; margin-top: 3rem; position: relative; left: -18px; width: calc(100% + 36px);
+                li{width: 33.333%; height: 4rem;
+                    a{
+                        text-align: center; font-size: 1.6rem; color: #808080; font-weight: 400;
+                    }
+                }
+                .active{
+                    border-bottom: 2px solid $orange; 
+                    a{
+                        color: $orange; font-weight: 500;
+                    }
+                }
+            }
+        }
+        .plus{
+            h2{
+                font-size: 1.8rem;line-height: 9rem;color: #222;font-weight: 500; 
+            }
+            .lounge{background: url(../img/img_circle_jjlounge.png)no-repeat left center; }
+            .traveler{background: url(../img/img_circle_insurance.png)no-repeat left center;}
+            .tour{background: url(../img/img_circle_tourticket.png)no-repeat left center;}
+            .btn{position: relative;width: 100%; padding: 34px 25px 34px 110px; text-align: left; box-sizing: border-box; background-size: 90px auto;
+                p.title{
+                    margin-bottom: 5px;font-size: 1.5rem;line-height: 20px;color: #222; font-weight: 500; display: block;
+                }
+                p.text{
+                    font-size: 1.4rem;line-height: 19px;letter-spacing: -0.2px;color: #666;font-weight: 400;
+                }
+                .money{
+                    span{
+                        margin-left: 5px; font-size: 1.2rem;line-height: 3rem;letter-spacing: -0.2px;color: $orange; font-weight: 700; text-decoration: none;
+                        &.line{font-size: 1rem; line-height: 19px;letter-spacing: -0.17px;color: #808080;font-weight: 400; text-decoration: line-through ;} 
+                    }
+                }
+            }
+            .btn::after{
+                content: '';position: absolute;top: 50%;right: 6px;width: 24px;height: 24px;margin-top: -12px;background: url(../img/icon_arrow_right.png) no-repeat;background-size: 24px auto;
+            }
+        }
+        .member{ height: 35rem; 
+            h2{
+                font-size: 1.8rem;line-height: 9rem;color: #222;font-weight: 500; 
+            }
+            .swiper-container{ width: 100%; 
+                .swiper-slide{width: 85%; border: 1px solid #ccc; border-radius: .5rem;
+                    img{
+                        width: 100%; border-radius: .5rem;
+                    }
+                    .text{padding: 15px 20px;
+                        h3{font-size: 1.5rem;line-height: 22px;letter-spacing: -0.23px;color: #222;font-weight: 500;
+                        }
+                        p{font-size: 1.3rem;line-height: 22px;letter-spacing: -0.2px;color: #666;font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .product{height: 60rem; 
+            h2{
+                font-size: 1.8rem;line-height: 4rem;color: #222;font-weight: 500; 
+            }
+            h3{
+                font-size: 1.4rem;line-height: 4rem;letter-spacing: -0.2px;color: #666;font-weight: 400;
+            }
+            .box{  margin-top: 2rem; margin-bottom: 2rem;
+                .btn{
+                    padding: 7px 23px;margin: 0 4px 6px 0;border: 1px solid #e5e5e5;font-size: 1.2rem;line-height: 20px;letter-spacing: -0.2px;
+                        color: #666;font-weight: 500; background: $white;
+                }
+            }
+            .box2{
+                .gift{background: #E2F0FC url(../img/img_mo_ban_gifticket.png)no-repeat right 11px center;}
+                .reserve{background: #EDEEFF url(../img/img_mo_ban_dutyfree.png)no-repeat right 11px center;}
+                .btn{
+                    position: relative;width: 100%; padding: 45px 120px 45px 20px;text-align: left; border-radius: 3px; margin-bottom: 2rem; background-size: 110px auto;
+                }
+                p.title{
+                    margin-bottom: 5px;font-size: 1.5rem;line-height: 20px;color: #222; font-weight: 500; display: block;
+                }
+                p.text{
+                    font-size: 1.2rem;line-height: 19px;letter-spacing: -0.2px;color: #666;font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+#footer{
+    .con6{clear: both; height: 7rem; width: 100%; position: fixed; bottom: 0; left: 0; background: $white; z-index: 999999; border-top: 1px solid #ccc;
+        ul{display: flex; justify-content: space-between; 
+            li{float: left; padding: 1rem; display: flex; align-items: center; flex-direction: column;
+                a{ display: flex;align-items: center; flex-direction: column;
+                    font-size: 1rem;
+                    img{
+                        width: 3rem; 
+                    }
+                }
+            }
+        }
+    }
+}

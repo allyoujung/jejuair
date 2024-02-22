@@ -1,0 +1,182 @@
+
+$orange:#FF5100;
+$blue:#1DBEEF;
+$white:#fff;
+$lightgray1:#eeeeee;
+$lightgray2:#E5E5E5;
+$darkgray:#666666;
+$dark-light-gray:#808080;
+$dark:#000;
+
+#wrap{padding: 0 18px ;  box-sizing: border-box;}
+
+header{ height: 5rem; width: 100%; position: fixed;top: 0; left: 0; background: $white; z-index: 999999;padding: 0 18px ;box-sizing: border-box;  
+    .logo{float: left;
+        img{ height: 2rem; margin-top: 1.7rem;}
+    }
+    .menu{float: right;
+        img{ height: 2.4rem; margin-top: 1.5rem; }
+    }
+}
+#contents{height: inherit; width: 100%; display: flex; flex-direction: column; padding-top: 6.5rem;
+    .con1{ float: left; width: 100%;
+        .button{background: $lightgray1;  height: 5vh; margin-top: 1rem; 
+            border-radius: 50px;
+            li{float: left; width: 33.333%;
+                a{display: block; text-align: center; line-height: 5vh; font-size: 1.5rem; color: $dark-light-gray;
+                    
+                }
+            }
+            li.active{ width: 33.333%; 
+                a{ height: 4.2vh; margin-left: .4rem; margin-top: .3rem;background: $white; border-radius: 50px;
+                    display: block; line-height: 4.2vh; font-size: 1.5rem; font-weight: 500; color: $orange;
+                    box-shadow: 1px 2px 4px #ccc;
+                }
+            }
+        }
+        .click{display: flex; justify-content: space-between;margin-top: 1rem; height: 8rem; align-items: center;
+            border-bottom: 1px solid $lightgray2;
+            .Start{
+                h3{display: block; color: $dark-light-gray; font-size: 1.2rem;}
+                h2{font-size: 2.2rem;
+                    a{color: #ccc; font-weight: 500;}
+                }
+            }
+            .icon{background: url(../img/icon_switch_off.png) no-repeat 0 0/cover; width: 2rem;; height:2rem; margin-top: 2rem;}
+            .arrive{text-align: right;
+                h3{display: block; color: $dark-light-gray; font-size: 1.2rem;}
+                h2{font-size: 2.2rem;  
+                    a{color: #ccc;font-weight: 500;}
+                }
+            }
+        }
+        .text-list{display: flex; flex-direction: column; margin-top: 1rem;
+            .text{border: 1px solid #ccc; margin-top: .7rem; padding: 5px 10px;
+                a{font-size: 1.3rem; font-weight: 700;
+                }
+            }
+            .text1{width: 24rem;
+                a{
+                    span{color: $blue;
+                    }
+                }
+            }
+            .text2{display: flex;
+                .text2-1{ margin-right: .4rem;
+                    a{
+                        span{ color: $orange;
+                        }
+                    }
+                }
+                .text2-2{
+                    a{font-size: 1.3rem;}
+                }
+            }
+            .text3{width: 13rem;
+                a{
+                    span{
+                        color: $orange;
+                    }
+                }
+            }
+        }
+    }
+    .con2{float: left; margin-top: 2rem;
+        .event{width: 100%; height: 13rem; position: relative;
+            h2{margin-bottom: 1.5rem;
+                a{font-size: 1.7rem; font-weight: 500;
+
+                }
+            }
+            .img{
+                background: url(../img/bm_kr_210609_BuzinessLight.jpg) no-repeat center center/cover; width: 100%; height: 100%;
+                 border-radius: .5rem;
+            }
+            .number{position: relative; top: -3rem; right: -27rem; width: 6rem;font-size: .5rem; color: $white; background-color: $dark; border-radius: 20px; padding: .2888rem 1rem .2888rem .3888rem ;
+                text-align: center; opacity: .5;
+                .plus{font-size: 0.9rem; position: absolute; top:3px; right: 10px;}
+            }
+        }
+    }
+    .con3{clear: both; padding-top:5.5rem; position: relative;
+        .service{
+            .s_text{margin-bottom: 1.5rem; display: flex; justify-content: space-between;
+                a{font-size: 1.7rem; font-weight: 500;
+
+                }
+                .all{font-size: 1.3rem; font-weight: 400; text-decoration: underline;
+
+                }
+            }
+            .swiper-container{width: 100%; 
+                .swiper-slide{width: 80%; 
+                    img{
+                        width: 100%; border-radius: .5rem;
+                    }
+                    h3{
+                        position: absolute; top: 2rem; left: 2.3rem; color: $white; font-size: 2.4rem; font-weight: 700;
+                    }
+                    p{
+                        position: absolute;top: 4rem; left: 2.3rem; margin-top: 1.7rem; color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+#footer{height: 28rem;
+    .con4{ margin-top: 7rem; 
+        .gradation{ width: 100%; height: 8rem; background: linear-gradient( 
+            -180deg
+            , rgba(255, 255, 255, 0), rgba(255, 86, 8, 0.1) );
+            a{ float: left;
+                img{
+                    width: 6rem;margin-right: 3rem; margin-left: 6rem; 
+                }
+            }
+            p{
+                padding-top: 1rem;
+            }
+        }
+    }
+    .con5{ width: 100%; height: 14rem; background: #f2f2f2; display: flex; flex-direction: column; margin: 0 auto;
+        .f_btn{ width: 100%;
+            li{ float: left; width: 13rem; height: 3rem; background: $lightgray2; margin-right: -3rem; margin-left: 5rem; margin-top: 2.5rem; margin-bottom: 2rem;
+                li:last-child{ margin-right: 0; margin-left:0}
+                
+                a{
+                    text-align: center; line-height: 3rem;
+                }
+            }
+        }
+        .f_list{ float: left; margin-left: 4.6rem; 
+            a{
+                float: left; position: relative; margin-left: 1.5rem; margin-right: 1.5rem; font-size: 1.2rem;
+            }
+            a:after{
+                content: '';position: absolute;top: 50%; left: 0;width: 1px;height: 8px;margin-top: -4px;margin-left: -13px;background: #bdbdbd;
+            }
+            a:first-child:after{width: 0;height: 0;}
+        }
+        .f_copy{float: left; margin-left: 9.5rem; margin-top: 1rem; 
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+    .con6{clear: both; height: 7rem; width: 100%; position: fixed; bottom: 0; left: 0; background: $white; z-index: 999999;border-top: 1px solid #ccc;
+        .fixed{
+            ul{display: flex; justify-content: space-between;
+                li{float: left; padding: 1rem; display: flex; align-items: center; flex-direction: column;
+                    a{ display: flex;align-items: center; flex-direction: column;
+                        font-size: 1rem; 
+                        img{
+                            width: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

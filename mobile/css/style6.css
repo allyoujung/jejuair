@@ -1,0 +1,233 @@
+#wrap {
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background: #fff;
+}
+header .he1 {
+  display: flex;
+  justify-content: space-between;
+}
+header .he1 .hb1 {
+  display: flex;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+header .he1 .hb1 .home {
+  margin-right: 2rem;
+  width: 2.5rem;
+}
+header .he1 .hb1 .home a img {
+  width: 2.6rem;
+  position: relative;
+  top: 3px;
+}
+header .he1 .hb1 .choice a {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+}
+header .he1 .hb1 .choice a img {
+  width: 3rem;
+  position: relative;
+  top: 3px;
+}
+header .he1 .hb2 {
+  display: flex;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+header .he1 .hb2 .app {
+  margin-right: 2rem;
+}
+header .he1 .hb2 .app a {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+header .he1 .hb2 .app a img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+header .he1 .hb2 .close a img {
+  width: 2.6rem;
+  position: relative;
+  top: 3px;
+}
+header .btn {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+header .btn li {
+  width: 50%;
+  background: #FF5100;
+  border-radius: 3px;
+  margin-right: 1rem;
+}
+header .btn li a {
+  text-align: center;
+  line-height: 5rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+header .btn li:first-child {
+  background: #fff;
+  border: 1px solid #FF5100;
+}
+header .btn li:first-child a {
+  color: #FF5100;
+}
+header .btn li:last-child {
+  margin-right: 0;
+}
+header .into {
+  display: flex;
+  justify-content: space-between;
+  line-height: 8rem;
+  border-bottom: 1px solid #ccc;
+}
+header .into p {
+  font-size: 1.5rem;
+}
+header .into span {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #FF5100;
+}
+header .icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+header .icon li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .icon li a img {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+header .boto2 {
+  border: 3px solid #f2f2f2;
+  box-shadow: -1px 3px #f8f8f8;
+  position: relative;
+  left: -18px;
+  width: calc(100% + 36px);
+  margin-top: 4rem;
+}
+
+#contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+#contents .con1 .t_list h3 {
+  font-size: 1.3rem;
+  color: #808080;
+  text-align: left;
+  line-height: 5rem;
+  border-bottom: 1px solid #ccc;
+  margin-top: 3rem;
+}
+#contents .con1 .t_list .first {
+  margin-top: 0;
+}
+#contents .con1 .t_list ul {
+  margin-top: 1.3rem;
+}
+#contents .con1 .t_list ul li a {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+#contents .con1 .sns h3 {
+  font-size: 1.3rem;
+  color: #808080;
+  text-align: left;
+  line-height: 5rem;
+  border-bottom: 1px solid #ccc;
+  margin-top: 3rem;
+}
+#contents .con1 .sns ul {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+#contents .con1 .sns ul li a img {
+  width: 4.5rem;
+}
+#contents .con1 .banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+  left: -18px;
+  width: calc(100% + 36px);
+  height: 12rem;
+  background: #BEEDFD;
+}
+#contents .con1 .banner p {
+  height: 4rem;
+}
+#contents .con1 .banner img {
+  width: 5rem;
+  height: 5rem;
+}
+
+#footer .fixed {
+  clear: both;
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999999;
+  border-top: 1px solid #ccc;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.11);
+}
+#footer .fixed .box {
+  position: relative;
+}
+#footer .fixed .box .inputt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .fixed .box .inputt .input {
+  border: 0;
+  background: #f5f5f5;
+  padding: 1.5rem 17rem 1.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+#footer .fixed .box .inputt .input::-moz-placeholder {
+  color: #ccc;
+  font-size: 1.5rem;
+}
+#footer .fixed .box .inputt .input:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 1.5rem;
+}
+#footer .fixed .box .inputt .input::placeholder {
+  color: #ccc;
+  font-size: 1.5rem;
+}
+#footer .fixed .box .inputt .input:focus {
+  outline: none;
+}
+#footer .fixed .box .inputt a img {
+  width: 3rem;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}/*# sourceMappingURL=style6.css.map */
